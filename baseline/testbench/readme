@@ -1,0 +1,6 @@
+0 = reset
+1 = normal accumulation
+2 = enable=0 hold test
+3 = boundary cases
+4 = pipeline flush (optimized)
+5 = 1000 random tests
