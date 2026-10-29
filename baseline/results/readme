@@ -6,4 +6,37 @@
 | **Power**          | **2.36 mW**        | ≤ 2 mW | ❌ FAIL |
 | **Setup slack**    | **−0.98 ns**       | ≥ 0 ns | ❌ FAIL |
 | **Hold slack**     | **+0.39 ns**       | ≥ 0 ns | ✅ PASS |
- 
+RTL architecture          : Unpipelined MAC
+Arithmetic                : Unsigned 8-bit × 8-bit
+Accumulator width         : 20 bits
+
+Total synthesized cells   : 466
+Standard-cell area        : 4758.3136 µm²
+Core area                 : 13295.2512 µm²
+Die area                  : 17660.2704 µm²
+Placement utilization     : 37.29 %
+
+Target clock period       : 4.00 ns
+Target frequency          : 250 MHz
+
+Critical path metric      : 4.21 ns
+Suggested clock period    : 4.98 ns
+Suggested frequency       : 200.803 MHz
+
+Worst setup slack         : -0.98 ns
+Worst hold slack          : +0.39 ns
+Total negative slack      : -9.24 ns
+
+Worst path startpoint     : B[2]
+Worst path endpoint       : _906_ flip-flop
+Data arrival time         : 5.01 ns
+Data required time        : 4.03 ns 
+
+
+Internal power            : 1.22 mW
+Switching power           : 1.14 mW
+Leakage power             : 3.52 nW
+Total power               : 2.36 mW
+
+Sequential power          : 0.369 mW  (15.6%)
+Combinational power       : 1.99 mW   (84.4%)
