@@ -1,0 +1,9 @@
+| Metric | Baseline result | Target | Status |
+|---|---:|---:|---|
+| **Area**           | **4758.31 µm²**    | ≤ 10,000 µm² | ✅ PASS |
+| **Critical delay** | **4.21 ns**        | ≤ 4 ns | ❌ FAIL |
+| **Frequency**      | **200.80 MHz**     | ≥ 250 MHz | ❌ FAIL |
+| **Power**          | **2.36 mW**        | ≤ 2 mW | ❌ FAIL |
+| **Setup slack**    | **−0.98 ns**       | ≥ 0 ns | ❌ FAIL |
+| **Hold slack**     | **+0.39 ns**       | ≥ 0 ns | ✅ PASS |
+ 
