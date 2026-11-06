@@ -1,0 +1,14 @@
+============================================================
+OPTIMIZED DADDA MAC - AREA REPORT
+============================================================
+
+   Number of cells:                576
+   Chip area for module '\mac8_dadda_pipeline': 5597.868800
+
+Physical Design Area Results
+----------------------------------------
+Standard-cell count    : 576
+Core area              : 15770.1248 um^2
+Die area               : 20381.6786 um^2
+Placement utilization  : 36.94 %
+Total physical cells   : 2053
